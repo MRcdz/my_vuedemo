@@ -1,6 +1,6 @@
 <template>
   <nav class="navbar w-100 navbar-dark bg-primary text-white">
-    <div class="container-fluid w-75 py-2">
+    <div class="container-fluid w-75 py-1">
       <!-- <a class="navbar-brand" href="https://www.baidu.com">者也专栏</a> -->
       <router-link class="navbar-brand" to="/">高仿项目</router-link>
       <!-- 未登录情况 -->

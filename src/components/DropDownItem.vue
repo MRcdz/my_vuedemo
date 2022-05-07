@@ -1,5 +1,5 @@
 <template>
-  <li class="dropdown-option" :class="{'is-disabled': disabled}">
+  <li :class="{'is-disabled': disabled}">
     <a :href="skipUrl" class="dropdown-item"><slot></slot></a>
   </li>
 </template>

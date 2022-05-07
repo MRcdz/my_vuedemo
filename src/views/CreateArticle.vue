@@ -56,6 +56,7 @@ export default defineComponent({
       if (!store.state.user.isLogin) {
         router.push('/login')
       }
+      titleRef.value.ipt.focus()
     })
     return {
       ...toRefs(articleInfo),
