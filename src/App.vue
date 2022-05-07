@@ -17,7 +17,7 @@ import GlobalHeader from './components/GlobalHeader.vue'
 import GlobalFooter from './components/GlobalFooter.vue'
 // 导入 bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css'
-import 'bootstrap/dist/js/bootstrap.min.js'
+import 'bootstrap/dist/js/bootstrap.bundle'
 
 import { useStore } from 'vuex'
 export default defineComponent({
